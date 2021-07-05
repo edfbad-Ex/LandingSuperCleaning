@@ -1,0 +1,78 @@
+#Container-Slider{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.Container-Slider-Child{
+    width: 90%;
+}
+
+.Slider-Img{
+    height: 500px;
+}
+
+.slick-next:before, .slick-prev:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: .95;
+    color: #1b50c9 /*#2d9545*/;
+}
+
+#Slider-Img1{
+
+    background: url(../Img/img1.jpg) top center no-repeat;
+    background-size: cover;
+
+}
+
+#Slider-Img2{
+
+    background: url(../Img/img2.jpg) top center no-repeat;
+    background-size: cover;
+
+}
+
+#Slider-Img3{
+
+    background: url(../Img/img3.jpg) top center no-repeat;
+    background-size: cover;
+
+}
+
+#Slider-Img4{
+
+    background: url(../Img/img4.jpg) top center no-repeat;
+    background-size: cover;
+
+}
+
+#Slider-Img5{
+
+    background: url(../Img/img5.jpg) top center no-repeat;
+    background-size: cover;
+
+}
+
+#Slider-Img6{
+
+    background: url(../Img/img6.jpg) top center no-repeat;
+    background-size: cover;
+
+}
+
+#Slider-Img7{
+
+    background: url(../Img/img7.jpg) top center no-repeat;
+    background-size: cover;
+
+}
+
+#Slider-Img8{
+
+    background: url(../Img/img8.jpg) top center no-repeat;
+    background-size: cover;
+
+}

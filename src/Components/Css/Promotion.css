@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap');
+
+
+.Container-Promotion{
+
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 100px;
+    
+    animation-name: BackgroundChange;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+    font-family: "Zen Dots", sans-serif;
+    background: linear-gradient(180deg, #19af3c 0% , #19af3c 49%, #1b50c9 50%, #1b50c9 100%);
+    background-size: 1px 820px;
+
+}
+
+.Container-Promotion-Child{
+
+    width: 33.33%;
+
+}
+
+.Container-Promotion-Child:nth-child(1){
+
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+
+}
+
+.Container-Promotion-Child:nth-child(2){
+
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Container-Promotion-Child:nth-child(3){
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition-property: all;
+
+}
+
+.Description-Promotion{
+
+    color: white;
+
+}
+
+.Description-Promotion:nth-child(1){
+
+    margin-bottom: 0px;
+    text-align: end;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+.Description-Promotion:nth-child(2){
+
+    margin-top: 0px;
+    text-align: end;
+    font-size:50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+.Image-Promotion{
+
+    transform: scale(0.86);
+
+}
+
+.Promotion-Circle{
+    
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition-property: all;
+    border: 3px solid transparent;
+
+}
+
+.Promotion-Circle:focus{
+
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+    transition: ease-in-out 1300ms;
+    transition-property: all;
+    cursor: pointer;
+    border: 3px solid yellowgreen;
+
+}
+
+.Promotion-Circle:hover{
+
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+    transition: ease-in-out 1300ms;
+    transition-property: all;
+    cursor: pointer;
+
+}
+
+.Description-Promotion-Circle:nth-child(1){
+
+    margin-top: 40%;
+    font-weight: 700;
+    font-size: 35px;
+    
+}
+
+.Description-Promotion-Circle:nth-child(2){
+
+    font-weight: 700;
+    font-size: 15.5px;
+    
+}
+
+@keyframes BackgroundChange {
+
+    50%{
+        
+        background-position: 0 -410px;
+        animation-timing-function: ease;
+
+    }
+    
+}
