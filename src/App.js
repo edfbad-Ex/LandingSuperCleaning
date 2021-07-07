@@ -13,6 +13,7 @@ function App() {
         <NavBar />
         <SimpleSlider />
         <Promotion />
+        <br/>
 
       </header>
     </div>

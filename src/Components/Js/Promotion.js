@@ -1,4 +1,5 @@
 import React from 'react'
+import Img from "../Img/limpiador.png"
 import "../Css/Promotion.css"
 
 function Promotion() {
@@ -14,7 +15,7 @@ function Promotion() {
 
             <div className="Container-Promotion-Child">
 
-                <img className="Image-Promotion" src="https://lirp.cdn-website.com/3f9fb545/dms3rep/multi/opt/0025709_aspiradora-conga-ciclonic-cord-rewinder-337w.png"/>
+                <img className="Image-Promotion" src={Img}/>
 
             </div>
 
