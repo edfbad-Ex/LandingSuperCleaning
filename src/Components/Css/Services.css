@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+
+.Container-Services{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+    height: auto;  
+    margin-top: 20px; 
+
+}
+
+.Container-Services-Childs{
+
+    display: flex;
+    flex-direction: row;
+    width: 91.80%;
+    height: auto;
+    
+}
+
+.Container-Services-Child{
+
+
+    width: 33.33%;
+    height: 300px;
+    border: 1px solid #19af3c;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 20px 10px;
+    background-color: #19af3c;
+
+}
+
+.Container-Services-Childs:nth-child(1) > .Container-Services-Child:nth-child(1) > .Container-Services-Child-Img{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    background: url("https://lirp.cdn-website.com/3f9fb545/dms3rep/multi/opt/609-1280w.jpg") center  no-repeat;
+    background-size: cover;
+    
+}
+
+.Container-Services-Childs:nth-child(1) > .Container-Services-Child:nth-child(2) > .Container-Services-Child-Img{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    background: url("https://lirp.cdn-website.com/3f9fb545/dms3rep/multi/opt/images-1280w.jpg") center  no-repeat;
+    background-size: cover;
+
+}
+
+.Container-Services-Childs:nth-child(1) > .Container-Services-Child:nth-child(3)  > .Container-Services-Child-Img{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    background: url("https://lirp.cdn-website.com/3f9fb545/dms3rep/multi/opt/limpieza-de-tapetes-1280w.jpg") center  no-repeat;
+    background-size: cover;
+
+}
+
+.Container-Services-Childs:nth-child(2) > .Container-Services-Child:nth-child(1)  > .Container-Services-Child-Img{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    background: url("https://lirp.cdn-website.com/3f9fb545/dms3rep/multi/opt/900x600-1280w.jpg") center no-repeat;
+    background-size: cover;
+    
+}
+
+.Container-Services-Childs:nth-child(2) > .Container-Services-Child:nth-child(2)  > .Container-Services-Child-Img{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    background: url("https://lirp.cdn-website.com/3f9fb545/dms3rep/multi/opt/5TQE6CFYDBBRLIC55WDI4Q5W34-1280w.jpg") center no-repeat;
+    background-size: cover;
+
+}
+
+.Container-Services-Childs:nth-child(2) > .Container-Services-Child:nth-child(3)  > .Container-Services-Child-Img{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    background: url("https://lirp.cdn-website.com/3f9fb545/dms3rep/multi/opt/Lavado-de-Muebles-Colchones-Tapetes-y-Tapiceria-de-Autos_2-1280w.jpg") center no-repeat;
+    background-size: cover;
+
+}
+
+.Container-Services-Child-Text{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Container-Services-Child-Text > span{
+
+    margin-top: 18px;
+    color: white;
+    font-family: "Zen Dots", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+
+@media (min-width: 600px ) and (max-width: 930px){
+
+    .Container-Services-Childs{
+
+        display: flex;
+        flex-direction: column;
+        width: 87%;
+        height: auto;
+        
+    }
+
+    .Container-Services-Child{
+
+
+        width: 100%;
+        height: 300px;
+        border: 1px solid #19af3c;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 10px 20px 10px;
+        background-color: #19af3c;
+    
+    }
+    
+}
+
+@media (min-width: 931px) and (max-width: 1145px){
+
+    .Container-Services-Child-Img{
+
+        height: 70%;
+
+    }    
+
+    .Container-Services-Child-Text{
+
+        height: 30%;
+
+    }
+
+}
