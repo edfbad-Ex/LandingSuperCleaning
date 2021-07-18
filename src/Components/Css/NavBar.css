@@ -19,7 +19,7 @@
 #CreatedBy{
 
     position: fixed;
-    display: flex;
+    display: none;
     opacity: 0;
     margin: 0px;
     padding: 0px;
@@ -56,46 +56,34 @@
     flex-direction: row;
     width: 100%;
     position: fixed;
-    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.50);
+    /*-moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.50);
     -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.50);
-    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.50);
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.50);*/
 
-}
-
-.NavBar-Child{
-
-    width: 33.33%;
-    height: 80px;
-    background-color: white;
- 
 }
 
 .NavBar-Child:nth-child(1){
+
+    width: 620px;
+    left: -120px;
+    height: 100px;
+    position: fixed;
+    background-color: #1b50c9;
     display: flex;
     align-items: center;
     align-content: center;
-
+ 
 }
 
 .NavBar-Child:nth-child(2){
 
+    width: 100%;
+    height: 100px;
+    background-color: #1b50c9;
     display: flex;
     align-items: center;
     align-content: center;
  
-}
-
-.NavBar-Child:nth-child(3){
-
-
-}
-
-.NavBar-Child:nth-child(4){
-
-    display: none;
-    height: 50%;
-    border: none;
-
 }
 
 .NavBar-Child:nth-child(4):hover{
@@ -108,8 +96,8 @@
 .NavBar-Logo{
 
     margin: 0px 0px 0px 0%;
-    flex-grow: 1;
-    height:200%;
+    width: 100%;
+    height:210%;
     transform: scale(0.4);
     transition-property: all;
     transition-duration: 200ms;
@@ -129,8 +117,11 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin: 35px 0px 0px 8%;
+    top: 26px;
+    right: 316px;
     height: 58%;
+    position: absolute;
+    font-family: "Zen Dots", sans-serif;
 
 }
 
@@ -142,7 +133,7 @@
     margin-left: 18%;
     font-weight: 700;
     transition: ease-in-out 200ms;
-    color: rgba(0, 0, 0, 0.350);
+    color: white;
 
 }
 
@@ -150,32 +141,35 @@
 .NavBar-Links-Childs:hover{
 
     cursor: pointer;
-    border-bottom: 4px solid #19af3c;
-    color: black;
+    border-bottom: 5px solid #19af3c;
+    color: #19af3c;
 
 }
 
 .NavBar-Links-Childs:focus{
 
     border-bottom: 4px solid #19af3c;
-    color: black;
+    color: #19af3c;
 
 }
 
 .Button-Request-Invite1{
 
-    border: none;
+    border: 1px solid white;
     margin: 16px 0px 0px 40%;
     padding: 15px 25px 15px 25px;
     border-radius: 25px;
-    background: linear-gradient(180deg, #19af3c 0%, #19af3cc4 49%, #1b50c9 50%, #1b4fc9b4 100%);
+    background: linear-gradient(180deg, #1b50c9 0%, #1b50c9 49%, #19af3cc4 50%, #19af3cc4 100%);
     background-size: 1px 100px;
     color: white;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 15px;
     transition-property: all;
     transition: ease-in-out 250ms;
+    font-family: "Zen Dots", sans-serif;
+    letter-spacing: 2px;
     outline: none;/*quitar la marca de enfocado del elemento*/
+    transform: scale(0.9);
 
 }
 
@@ -265,7 +259,7 @@
 
     .NavBar-Logo{
 
-        margin: 0px 0px 0px -100px;
+        margin: 0px 0px 0px -50px;
         flex-grow: 1;
         height: 200%;
         transform: scale(0.4);
@@ -281,8 +275,8 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        right: 25px;
-        top: 31px;
+        right: 50px;
+        top: 40px;
         align-items: flex-end;
         background-color: transparent;
         border: none;
@@ -321,7 +315,7 @@
         flex-direction: column;
         background-color: var(--Very-Light-Gray);
         left: 20px;
-        top: 70px;
+        top: 110px;
         right: 20px;
         bottom: 0px;
         border-radius: 4px;
@@ -384,7 +378,7 @@
 
 }
 
-@media (min-width: 1001px) and (max-width: 1100.99px){
+/*@media (min-width: 1001px) and (max-width: 1100.99px){
 
     .NavBar-Child:nth-child(1){
         
@@ -448,4 +442,4 @@
 
     }
 
-}
+}*/

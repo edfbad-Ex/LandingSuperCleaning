@@ -45,6 +45,7 @@ function NavBar() {
                     Hamburger.style.display = "none";
                     Close.style.display = "block";
                     CreatedBy.style.opacity = "1";
+                    CreatedBy.style.display = "flex";
     
                 } else {
                     
@@ -55,6 +56,7 @@ function NavBar() {
                     Hamburger.style.display = "block";
                     Close.style.display = "none";
                     CreatedBy.style.opacity = "0";
+                    CreatedBy.style.display = "none";
     
                 }
             
@@ -354,7 +356,7 @@ function NavBar() {
 
         let scrollPosition = window.pageYOffset;
         let CreatedBy = document.getElementById("CreatedBy");
-        console.log(scrollPosition);
+        //console.log(scrollPosition);
 
         if(scrollPosition > 1260)
         {
@@ -389,11 +391,11 @@ function NavBar() {
                     <button id="NavBar-Child-Menu">
 
                         <i id="Hamburger">
-                            <svg className="NavBar-Child-Svg" width="24" height="11"><g fill="#2D314D" fillRule="evenodd"><path d="M0 0h24v1H0zM0 5h24v1H0zM0 10h24v1H0z"/></g></svg>
+                            <svg className="NavBar-Child-Svg" width="24" height="11"><g stroke="white" strokeWidth="1.5" fill="none" fillRule="evenodd"><path d="M0 0h24v1H0zM0 5h24v1H0zM0 10h24v1H0z"/></g></svg>
                         </i>
 
                         <i id="Close">
-                            <svg className="NavBar-Child-Svg" width="18" height="19"><g fill="#2D314D" fillRule="evenodd"><path d="M.868.661l16.97 16.97-.706.708L.162 1.369z"/><path d="M.161 17.632L17.131.662l.708.706-16.97 16.97z"/></g></svg>
+                            <svg className="NavBar-Child-Svg" width="18" height="19"><g stroke="white" strokeWidth="1.5" fill="none" fillRule="evenodd"><path d="M.868.661l16.97 16.97-.706.708L.162 1.369z"/><path d="M.161 17.632L17.131.662l.708.706-16.97 16.97z"/></g></svg>
                         </i>
 
                     </button>
@@ -402,25 +404,25 @@ function NavBar() {
 
                         <li tabIndex="2" onClick={Home} className="NavBar-Links-Childs">
 
-                            <span className="NavBar-Links-Child">Home</span>
+                            <span className="NavBar-Links-Child">Inicio</span>
 
                         </li>
 
                         <li tabIndex="3" onClick={About} className="NavBar-Links-Childs">
 
-                            <span className="NavBar-Links-Child">About</span>
+                            <span className="NavBar-Links-Child">Promoción</span>
 
                         </li>
                         
                         <li tabIndex="4" onClick={Contact} className="NavBar-Links-Childs">
 
-                            <span className="NavBar-Links-Child">Contact</span>                
+                            <span className="NavBar-Links-Child">Servicios</span>                
 
                         </li>
                         
                         <li tabIndex="5" onClick={Blog} className="NavBar-Links-Childs">
 
-                            <span className="NavBar-Links-Child">Blog</span>
+                            <span className="NavBar-Links-Child">Contacto</span>
 
                         </li>
                         
@@ -429,11 +431,11 @@ function NavBar() {
 
                 </div>
                 
-                <div className="NavBar-Child">
+                {/*<div className="NavBar-Child">
 
                     <button className="Button-Request-Invite1">Contact service</button>
 
-                </div>
+                </div>*/}
 
                 <span id="CreatedBy">Website Created by Edgardo FB</span>
 
